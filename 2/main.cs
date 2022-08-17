@@ -35,12 +35,13 @@ public static void Main (string [] args) {
   };
 
   if(Matricular(aluno1, disciplina)){
-    Console.writeLine(aluno1);
+    Console.WriteLine(aluno1);
   }
 
   if(Matricular(aluno2, disciplina)){
-    Console.writeLine(aluno2.matricula);
+    Console.WriteLine(aluno2.matricula);
   }
   
   
+}
 }

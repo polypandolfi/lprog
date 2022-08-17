@@ -20,7 +20,7 @@ return aluno.periodo == disciplina.semestre;
 public static void Imprimir (Aluno aluno,
                               Disciplina disciplina) {
     if(Matricular (aluno, disciplina)){
-      Console.writeLine(aluno.matricula);
+      Console.WriteLine(aluno.matricula);
     }
 }
   

@@ -5,8 +5,8 @@ class AulaObjeto {
 
 public static void Imprimir (Aluno aluno,
                               Disciplina disciplina) {
-    if(aluno.Matricular(disciplina)){
-      Console.writeLine(aluno.matricula);
+    if(aluno.Matricular(disciplina)) {
+      Console.WriteLine(aluno.matricula);
     }
 }
   
@@ -32,4 +32,3 @@ public static void Main (string[] args) {
   }
 }
   
-}
