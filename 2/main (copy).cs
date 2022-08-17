@@ -16,6 +16,13 @@ public static bool Matricular(Aluno aluno,
                              Disciplina disciplina){
 return aluno.periodo == disciplina.semestre;  
 }
+
+public static void Imprimir (Aluno aluno,
+                              Disciplina disciplina) {
+    if(Matricular (aluno, disciplina)){
+      Console.writeLine(aluno.matricula);
+    }
+}
   
 public static void Main (string [] args) {
   
@@ -34,12 +41,9 @@ public static void Main (string [] args) {
     semestre = 3
   };
 
-  if(Matricular(aluno1, disciplina)){
-    Console.writeLine(aluno1);
-  }
-
-  if(Matricular(aluno2, disciplina)){
-    Console.writeLine(aluno2.matricula);
+  Imprimir(aluno1, disciplina);
+  Imprimir(aluno2, disciplina);
+  
   }
   
   
