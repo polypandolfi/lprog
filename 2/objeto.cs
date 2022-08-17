@@ -5,7 +5,7 @@ class AulaObjeto {
 
 public static void Imprimir (Aluno aluno,
                               Disciplina disciplina) {
-    if(Matricular (aluno, disciplina)){
+    if(aluno.Matricular(disciplina)){
       Console.writeLine(aluno.matricula);
     }
 }
@@ -15,6 +15,7 @@ public static void Main (string[] args) {
     matricula = "012022",
     periodo = 1
   };
+  
   Aluno aluno2 = new Aluno {
     matricula = "022022",
       periodo = 3
