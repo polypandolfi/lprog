@@ -1,0 +1,20 @@
+using System;
+using Modelos;
+
+class MainClass {
+  public static void print(Aluno aluno) {
+    Console.WriteLine(
+      ".....................\n" +
+      "Matricula: " + aluno.matricula + "\n" +
+      "Nome: " + aluno.nome + "\n" +
+      "Periodo: " + aluno.periodo + "\n" +
+      "....................."
+    );
+  }
+  public static void Main (string[] args) {
+    Aluno aluno = new Aluno {
+      matricula = "2020ENEL123" ,
+      nome = "Maria"
+    }
+  }
+}
