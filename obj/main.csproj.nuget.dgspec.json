@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/JealousTechnicalWordprocessor/main.csproj": {}
+    "/home/runner/Polyana-Pandofli/main.csproj": {}
   },
   "projects": {
-    "/home/runner/JealousTechnicalWordprocessor/main.csproj": {
+    "/home/runner/Polyana-Pandofli/main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/JealousTechnicalWordprocessor/main.csproj",
+        "projectUniqueName": "/home/runner/Polyana-Pandofli/main.csproj",
         "projectName": "main",
-        "projectPath": "/home/runner/JealousTechnicalWordprocessor/main.csproj",
+        "projectPath": "/home/runner/Polyana-Pandofli/main.csproj",
         "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/JealousTechnicalWordprocessor/obj/",
+        "outputPath": "/home/runner/Polyana-Pandofli/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/runner/.nuget/NuGet/NuGet.Config"
