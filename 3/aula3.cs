@@ -26,5 +26,7 @@ class Aula3 {
     print(aluno4);
     Aluno aluno5 = new Aluno("2022ENEL789", "João", 3);
     print(aluno5);
+    Aluno aluno6 = new Aluno("2022ENEL321", "Duda", 11);
+    print(aluno6);
   }
 }
